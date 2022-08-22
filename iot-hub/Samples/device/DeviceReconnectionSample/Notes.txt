@@ -1,0 +1,8 @@
+﻿How to run the code
+--------------------
+--------------------
+
+-p : used for the IoT Hub connection string
+-t : (Default: Mqtt) The transport to use to communicate with the IoT hub. Possible values include Mqtt, Mqtt_WebSocket_Only, Mqtt_Tcp_Only, Amqp, Amqp_WebSocket_Only, Amqp_Tcp_Only, and Http1
+
+D:\repos\azure-iot-samples-csharp\iot-hub\Samples\device\DeviceReconnectionSample\bin\Debug\net6.0>DeviceReconnectionSample.exe -p HostName=rkiothubdev01.azure-devices.net;DeviceId=iotdevice01;SharedAccessKey=X+Swx/IZNgWjYmmTe851Y/2mttqkBuJl24kKAVPzDGk= -t Http1
